@@ -71,6 +71,9 @@ class SearchBar extends React.Component{
     render() {
         return (
             <div className="SearchBar">
+                <div class="github">
+                    <a href="https://github.com/P-hinn/ravenous"><i class="fab fa-github fa-4x"></i></a>
+                </div>
             <div className="SearchBar-sort-options">
                 <ul>
                     {this.renderSortByOptions()}
